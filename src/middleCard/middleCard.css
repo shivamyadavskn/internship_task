@@ -10,17 +10,48 @@
   display: flex;
   margin-top: 32px;
   margin-left: 32px;
- 
+
   border-radius: 40px;
   justify-content: space-evenly;
   background: #e8eee7;
 }
 
 .middleFir {
-  width: 1200px;
-  height: 300px;
+  margin-left: 0px;
+  width: 100%;
 }
 
 .container {
   padding: 10px;
+}
+
+.faq {
+  margin-top: 25px;
+  margin-left: 94.5px;
+  gap: 20px;
+}
+
+.faq p {
+  font-family: "Covered By Your Grace", cursive;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 35.2px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+
+.faq div {
+  font-family: "Manrope", sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 66px;
+  letter-spacing: -0.01em;
+  text-align: left;
+}
+
+.arrow {
+  width: 491px;
+  height: 514.61px;
+  opacity: 0.4px;
+  background-color:#E8EEE7  ;
 }

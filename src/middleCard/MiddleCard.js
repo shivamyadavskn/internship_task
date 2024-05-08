@@ -38,8 +38,13 @@ const MiddleCard = () => {
   return (
     <div className="middle">
       <div className="MiddleClassCon">
-        <div className="middleFir">test1</div>
-
+        <div className="middleFir">
+          <div className="faq">
+            <p>What’s on your mind</p>
+            <div>Ask Questions</div>
+          </div>
+          <img src="./uploads/Union.png" alt="notfound" className="arrow" />
+        </div>
         <div className="container">
           {sections.map((section, index) => (
             <ExpandableSection

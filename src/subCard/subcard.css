@@ -3,7 +3,6 @@
   height: 886px;
   margin-top: 79px;
   margin-left: 62px;
- 
 }
 
 .upperPosition {
@@ -31,7 +30,7 @@
 
 .secondDiv {
   margin: 112px 0px 0px;
-  
+
   display: flex;
   justify-content: space-between;
 }
@@ -40,14 +39,12 @@
   margin-left: 0px;
   width: 727.49px;
   height: 596px;
-  
+
   position: relative;
 }
 .div-2 {
-  margin-right: 10px;
-  margin-top: 10px;
-  width: 40;
-  text-align: left;
+  margin-right: 0px;
+  width: 35%;
 }
 
 .textName {
@@ -66,7 +63,7 @@
   padding: 30px;
   gap: 10px;
   border-radius: 27.11px;
- 
+
   box-shadow: 0px 22.59px 36.14px 0px #1e1e1e17;
 
   top: 112px;
@@ -101,7 +98,7 @@
   transform: rotate(-21.27deg); /* Rotate the image by 21.27 degrees */
   transform-origin: top left; /* Set the rotation origin to the top-right corner */
 }
-.imgDim{
+.imgDim {
   position: absolute;
   top: 0px;
   left: 90px;
@@ -123,11 +120,10 @@
   padding: 16px 32px 16px 16px;
   gap: 14px;
   border-radius: 111.54px;
-  
+
   position: absolute;
   bottom: 112px;
   background: #ffffff;
-
 }
 
 .first {
@@ -202,14 +198,45 @@
   letter-spacing: 0.01em;
   margin-top: 30px;
   text-align: right;
-  color: #A6A3A0;
+  color: #a6a3a0;
 }
 
-.textLast{
+.textLast {
   font-family: "Manrope", sans-serif;
   font-size: 18px;
   font-weight: 500;
   line-height: 23.4px;
   color: #cccccc;
   word-spacing: 1.5px;
+}
+
+.textDiv2 {
+  font-family: "Manrope", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: -0.02em;
+  width: 20ch;
+  padding-left: 10px;
+}
+
+.crow {
+  margin-top: 100px;
+  margin-left: 1.5vw;
+  width: 70px;
+  height: 20px;
+}
+
+.btn-3 {
+  margin-top: 90px;
+  margin-left: 10px;
+  padding: 31px 40px 31px 40px;
+  gap: 16px;
+  border-radius: 100px;
+  background-color: #1c1c1c;
+  color: #ffffff;
+  width: 70%;
+  cursor: pointer;
+  text-align: center;
+  font-family: "Manrope", sans-serif;
 }

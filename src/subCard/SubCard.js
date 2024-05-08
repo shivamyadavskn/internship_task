@@ -41,6 +41,13 @@ const SubCard = () => {
             </div>
           </div>
         </div>
+        <div className="div-2">
+          <div className="textDiv2">
+            Enhance fortune 50 company’s insights teams research capabilities
+          </div>
+          <img src="./uploads/tettt.png" alt="not found" className="crow" />
+          <div className="btn-3">Explore More</div>
+        </div>
       </div>
     </div>
   );
