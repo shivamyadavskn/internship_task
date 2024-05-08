@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 200vh;
+  margin-top: 30px;
 }
 
 .registration-form {
@@ -49,7 +49,7 @@ button {
   gap: 15.67px;
   border-radius: 107.06px;
   margin-left: 60px;
-  margin-top: 30px;  
+  margin-top: 30px;
 }
 
 button:disabled {
@@ -98,4 +98,64 @@ button:disabled {
 
 .icons {
   margin-left: 80px;
+}
+
+.navContainer {
+  margin-top: 24px;
+  margin-left: 24px;
+  margin-right: 24px;
+  border: 1px solid #eaeaea;
+  border-radius: 65.28px;
+  padding: 16.97px 20.89px 16.97px 52.22px;
+  display: flex;
+  justify-content: space-between;
+}
+.subcontainer {
+  gap: 15.67px;
+  display: flex;
+}
+
+.btn-2 {
+  padding: 26.11px 49.61px 26.11px 41.78px;
+  gap: 15.67px;
+  border-radius: 107.06px;
+  background-color: #1c1c1c;
+  color: #ffffff;
+
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24.59px;
+  text-align: center;
+}
+
+.btn-1 {
+  padding: 26.11px 41.78px 26.11px 41.78px;
+  gap: 5.22px;
+  border-radius: 107.06px;
+  border: 1.31px solid #eaeaea;
+  color: #1c1c1c;
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24.59px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.navlogo {
+  width: 127.94px;
+  height: 47.39px;
+  padding: 7.86px 0.17px 9.03px 6.78px;
+}
+
+img {
+  width: 121px;
+  height: 30.5px;
+  margin-top: 10.86px;
+  margin-left: 6.78px;
+}
+
+.fontst {
+  font-size: 50px;
 }

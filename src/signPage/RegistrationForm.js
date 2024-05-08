@@ -1,16 +1,27 @@
 import React, { useState } from "react";
 import "./RegistrationForm.css";
+import { useNavigate } from "react-router-dom";
 
 const RegistrationForm = () => {
+  const navigate=useNavigate();
+
+const handleBack = () => {
+    navigate("/");
+  };
+
+  const handleGetProjectClick = () => {
+    navigate("/congratPage");
+  };
+
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [emailError, setEmailError] = useState("");
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // You can add your submit logic here
     console.log("Name:", name);
     console.log("Email:", email);
+    handleGetProjectClick();
   };
 
   const validateEmail = (email) => {
@@ -32,6 +43,15 @@ const RegistrationForm = () => {
   const isFormValid = name.trim() !== "" && email.trim() !== "" && !emailError;
 
   return (
+    <>
+    <div className="navContainer">
+      <div className="navlogo">
+        <img src='./uploads/logo.png' alt="not found" className="imgRotate"/>
+      </div>
+      <div className="subcontainer">
+      <i class="fa-regular fa-circle-xmark fontst" onClick={handleBack}/>
+      </div>
+    </div>
     <div className="registration-container">
       <div className="registration-form">
         <div className="regForm">Registration Form</div>
@@ -63,6 +83,7 @@ const RegistrationForm = () => {
         </form>
       </div>
     </div>
+    </>
   );
 };
 
