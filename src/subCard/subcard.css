@@ -1,0 +1,217 @@
+.subCardContainer {
+  width: 1233px;
+  height: 886px;
+  margin-top: 79px;
+  margin-left: 62px;
+  border: 2px solid black;
+}
+
+.upperPosition {
+  margin: 0px 300px 0px;
+}
+
+.subTitle {
+  font-family: "Covered By Your Grace", cursive;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 39.6px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #2da950;
+}
+
+.title {
+  font-family: "Manrope", sans-serif;
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 67.2px;
+  letter-spacing: -0.02em;
+  text-align: center;
+}
+
+.secondDiv {
+  margin: 112px 0px 0px;
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.div-1 {
+  margin-left: 0px;
+  width: 727.49px;
+  height: 596px;
+  border: 2px solid black;
+  position: relative;
+}
+.div-2 {
+  margin-right: 10px;
+  margin-top: 10px;
+  width: 40;
+  text-align: left;
+}
+
+.textName {
+  font-family: "Manrope", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+  letter-spacing: -0.02em;
+  text-align: center;
+}
+
+.test {
+  position: relative; /* Ensure relative positioning for the container */
+  width: 267.82px;
+  height: 239px;
+  padding: 30px;
+  gap: 10px;
+  border-radius: 27.11px;
+  border: 2px solid black;
+  box-shadow: 0px 22.59px 36.14px 0px #1e1e1e17;
+
+  top: 112px;
+  left: -50px;
+  background: white;
+}
+
+.percFont {
+  font-family: "Switzer", sans-serif;
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 76.8px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+
+.secFont {
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23.4px;
+  text-align: left;
+  color: #828282;
+}
+
+.testimg {
+  position: absolute; /* Set image position to absolute */
+  top: 0; /* Align to the top */
+  left: -20px; /* Align to the right */
+  width: 79.17px;
+  height: 78.48px;
+  transform: rotate(-21.27deg); /* Rotate the image by 21.27 degrees */
+  transform-origin: top left; /* Set the rotation origin to the top-right corner */
+}
+.imgDim{
+  position: absolute;
+  top: 0px;
+  left: 90px;
+  z-index: -1;
+}
+
+.imgDim img {
+  width: 506.98px;
+  height: 546.27px;
+  top: 369px;
+  left: 206.69px;
+  border-radius: 20px;
+}
+
+.tenper {
+  width: 300px;
+  height: 88px;
+  display: flex;
+  padding: 16px 32px 16px 16px;
+  gap: 14px;
+  border-radius: 111.54px;
+  border: 2px solid black;
+  position: absolute;
+  bottom: 112px;
+  background: #ffffff;
+
+}
+
+.first {
+  font-family: "Manrope", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32.78px;
+  text-align: left;
+  color: #1c1c1c;
+}
+
+.second {
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20.8px;
+  text-align: left;
+  color: #828282;
+}
+
+.tenper img {
+  height: 50px;
+  width: 50px;
+  padding: 4px 4px 3px 3px;
+  margin: 3px 10px 3px;
+  box-shadow: 0px 15.21px 35.49px 0px #00000017;
+}
+
+.lastItem {
+  height: 200px;
+  width: 250px;
+  padding: 34px 30px 40px 36px;
+  gap: 20px;
+  border-radius: 28.36px;
+  border: 1.18px solid black;
+  border: 1.18px solid;
+  border-image-source: linear-gradient(
+    159.14deg,
+    #3d3d3d 6.08%,
+    rgba(61, 61, 61, 0) 85.58%
+  );
+  border-image-slice: 1;
+  background-color: #002e18;
+  color: white;
+}
+
+.lastItem {
+  font-family: "Switzer", sans-serif;
+  font-size: 63.37px;
+  font-weight: 500;
+  line-height: 76.05px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  position: absolute;
+  right: 0px;
+  bottom: 30px;
+}
+
+.dollar {
+  font-family: "Switzer", sans-serif;
+  font-size: 63.37px;
+  font-weight: 500;
+  line-height: 76.05px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: #ffffff;
+}
+
+.million {
+  font-family: "Switzer", sans-serif;
+  font-size: 22.81px;
+  font-weight: 500;
+  line-height: 31.94px;
+  letter-spacing: 0.01em;
+  margin-top: 30px;
+  text-align: right;
+  color: #A6A3A0;
+}
+
+.textLast{
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23.4px;
+  color: #cccccc;
+  word-spacing: 1.5px;
+}
