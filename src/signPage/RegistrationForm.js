@@ -45,7 +45,7 @@ const handleBack = () => {
   return (
     <>
     <div className="navContainer">
-      <div className="navlogo">
+      <div className="navlogo_">
         <img src='./uploads/logo.png' alt="not found" className="imgRotate"/>
       </div>
       <div className="subcontainer">

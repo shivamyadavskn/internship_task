@@ -49,7 +49,7 @@ button {
   gap: 15.67px;
   border-radius: 107.06px;
   margin-left: 60px;
-  margin-top: 30px;
+  
 }
 
 button:disabled {
@@ -143,7 +143,7 @@ button:disabled {
   background-color: #ffffff;
 }
 
-.navlogo {
+.navlogo_ {
   width: 127.94px;
   height: 47.39px;
   padding: 7.86px 0.17px 9.03px 6.78px;
@@ -152,7 +152,6 @@ button:disabled {
 img {
   width: 121px;
   height: 30.5px;
-  margin-top: 10.86px;
   margin-left: 6.78px;
 }
 

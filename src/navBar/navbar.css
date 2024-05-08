@@ -1,13 +1,4 @@
-.navContainer {
-  margin-top: 24px;
-  margin-left: 24px;
-  margin-right: 24px;
-  border: 1px solid #eaeaea;
-  border-radius: 65.28px;
-  padding: 16.97px 20.89px 16.97px 52.22px;
-  display: flex;
-  justify-content: space-between;
-}
+
 .subcontainer {
   gap: 15.67px;
   display: flex;
@@ -44,13 +35,12 @@
 .navlogo {
   width: 127.94px;
   height: 47.39px;
-  padding: 7.86px 0.17px 9.03px 6.78px;
-  
+  padding: 30px 0px 0px;
+
 }
 
 img {
   width: 121px;
   height: 30.5px;
-  margin-top: 10.86px;
   margin-left: 6.78px;
   }

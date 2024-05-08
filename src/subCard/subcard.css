@@ -3,7 +3,7 @@
   height: 886px;
   margin-top: 79px;
   margin-left: 62px;
-  border: 2px solid black;
+ 
 }
 
 .upperPosition {
@@ -31,7 +31,7 @@
 
 .secondDiv {
   margin: 112px 0px 0px;
-  border: 2px solid black;
+  
   display: flex;
   justify-content: space-between;
 }
@@ -40,7 +40,7 @@
   margin-left: 0px;
   width: 727.49px;
   height: 596px;
-  border: 2px solid black;
+  
   position: relative;
 }
 .div-2 {
@@ -66,7 +66,7 @@
   padding: 30px;
   gap: 10px;
   border-radius: 27.11px;
-  border: 2px solid black;
+ 
   box-shadow: 0px 22.59px 36.14px 0px #1e1e1e17;
 
   top: 112px;
@@ -123,7 +123,7 @@
   padding: 16px 32px 16px 16px;
   gap: 14px;
   border-radius: 111.54px;
-  border: 2px solid black;
+  
   position: absolute;
   bottom: 112px;
   background: #ffffff;
@@ -162,8 +162,6 @@
   padding: 34px 30px 40px 36px;
   gap: 20px;
   border-radius: 28.36px;
-  border: 1.18px solid black;
-  border: 1.18px solid;
   border-image-source: linear-gradient(
     159.14deg,
     #3d3d3d 6.08%,
